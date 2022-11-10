@@ -1,3 +1,4 @@
+
 /* Палітра кольорів сайту */
 /* Колір header : #FFFFFF; */
 /* Колір секції наші переваги, і footer :  #2F303A */
@@ -7,7 +8,7 @@
 /* колір тексту: #2196F3; */
 /* колір другорядного тексту: #757575; */
 
-/* header */
+/* Шапка */
 .logo {
     font-family: Raleway;
     font-style: 400;
@@ -24,6 +25,16 @@
 body {
     font-family: Roboto;
 }
-.list > li > a {
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus  {
+color: #2196F3;
+}
+.link {
     text-decoration: none;
+}
+.head-top {
+    background-color: #FFFFFF;;
 }
