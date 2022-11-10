@@ -160,6 +160,11 @@ color: var(--acent-color);
     color: #FFFFFF;
     text-decoration: none;
 }
+.address-item:hover,
+.address-item:focus {
+    color: var(--acent-color);
+}
+
 .address-items {
     font-style: 400;
     font-weight: 400;
@@ -169,3 +174,8 @@ color: var(--acent-color);
     color: rgba(255, 255, 255, 0.6); 
     text-decoration: none;   
 }
+.address-items:hover,
+.address-items:focus {
+    color: var(--acent-color);
+}
+
