@@ -17,7 +17,8 @@
 /* ------------index.html------------*/
 
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', 'sans-serif';
+    color: var(--primary-text-color);
 }
 
 /* ------------Шапка------------*/
@@ -80,7 +81,7 @@ color: var(--acent-color);
 .auth-nav,
 .list-benefits,
 .team-list,
-.buttons-nav,
+.buttons-filter,
 .photos-list,
 .list-work
 {
@@ -104,7 +105,7 @@ color: var(--acent-color);
 
 /* ------------Кнопи------------*/
 
-.buttons-nav  .button {
+.buttons-filter  .button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -118,9 +119,9 @@ color: var(--acent-color);
     background-color: #F5F4FA;
 }
 
-.button-nav:hover,
-.button-nav:focus,
-.button-nav:active
+.button-filter:hover,
+.button-filter:focus,
+.button-filter:active
  {
     background-color:var(--acent-color);
     color:#FFFFFF;
@@ -174,7 +175,6 @@ color: var(--acent-color);
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
 }
 
 /* ------------Наша команда------------*/
@@ -197,10 +197,9 @@ color: var(--acent-color);
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
 }
 
-/* Підвал */
+/* ------------Підвал------------*/
 
 .footer {
     background-color: #2F303A;
