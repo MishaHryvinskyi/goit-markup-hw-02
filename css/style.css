@@ -2,6 +2,7 @@
     --primary-text-color: #212121;
     --acent-color: #2196F3;
     --secondary-texy-color:#757575;
+    --primary-fon-color: #ffffff;
 
 }
 /* Палітра кольорів сайту */
@@ -19,12 +20,13 @@
 body {
     font-family: 'Roboto', 'sans-serif';
     color: var(--primary-text-color);
+    background-color: ;
 }
 
 /* ------------Шапка------------*/
 
 .head-top {
-    background-color: #FFFFFF;
+    background-color: var(--primary-fon-color);
 }
 .logo {
     font-family: Raleway;
@@ -94,7 +96,7 @@ color: var(--acent-color);
     
 }
 .hero-title {
-    color: #ffffff;
+    color: var(--primary-fon-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -124,7 +126,7 @@ color: var(--acent-color);
 .button-filter:active
  {
     background-color:var(--acent-color);
-    color:#FFFFFF;
+    color: var(--primary-fon-color);
  }
  .button-filter {
     border: 0;
@@ -132,7 +134,7 @@ color: var(--acent-color);
 
 .button-style {
     background-color: var(--acent-color);
-    color: #ffffff;
+    color: var(--primary-fon-color);
     border: none;
     cursor: pointer;
     font-style: 400;
@@ -213,7 +215,7 @@ color: var(--acent-color);
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: var(--primary-fon-color);
     text-decoration: none;
 }
 .address {
@@ -224,7 +226,7 @@ color: var(--acent-color);
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--primary-fon-color);
     text-decoration: none;
 }
 .address-item:hover,
