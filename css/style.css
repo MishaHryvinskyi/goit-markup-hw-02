@@ -12,10 +12,19 @@
 /* Акцент: #2196F3; */
 /* колір тексту: #2196F3; */
 /* колір другорядного тексту: #757575; */
+
+
+/* ------------index.html------------*/
+
 body {
     font-family: Roboto;
 }
+
 /* ------------Шапка------------*/
+
+.head-top {
+    background-color: #FFFFFF;
+}
 .logo {
     font-family: Raleway;
     font-weight: 700;
@@ -29,19 +38,34 @@ body {
     color: var(--acent-color)
 }
 
+/* ------------Навігація по сайті------------*/
+
+
+.site-nav {
+    color:#212121
+}
 .site-nav .header-link,
 .site-nav {
 color: var(--primary-text-color);
 }
 
-.auth-nav .header-link,
-.auth-nav  {
-    color: var(--primary-text-color);
-}
-
 .site-nav .header-link:hover,
 .site-nav .header-link:focus  {
 color: var(--acent-color);
+}
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+/* ------------Контатки------------*/
+
+.auth-nav .header-link,
+.auth-nav  {
+    color: var(--secondary-texy-color);
 }
 
 .auth-nav .header-link:hover,
@@ -54,10 +78,11 @@ color: var(--acent-color);
 }
 .site-nav,
 .auth-nav,
-.list,
+.list-benefits,
 .team-list,
-.buttons-list,
-.photos-list
+.buttons-nav,
+.photos-list,
+.list-work
 {
     list-style: none;
 }
@@ -77,7 +102,29 @@ color: var(--acent-color);
     text-transform: uppercase;
 }
 
-/* ------------Кнопа------------*/
+/* ------------Кнопи------------*/
+
+.buttons-nav  .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    border: none;
+}
+
+.button {
+    background-color: #F5F4FA;
+}
+
+.button-nav:hover,
+.button-nav:focus,
+.button-nav:active
+ {
+    background-color:var(--acent-color);
+    color:#FFFFFF;
+ }
 
 .button-style {
     background-color: var(--acent-color);
@@ -101,7 +148,7 @@ color: var(--acent-color);
 .list-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
@@ -115,7 +162,14 @@ color: var(--acent-color);
 }
 
 /* Чим ми займаємося */
-.section-title {
+
+.section-work,
+
+{
+    background-color: #F5F5F5;
+}
+
+.section-work-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -123,10 +177,16 @@ color: var(--acent-color);
     color: var(--primary-text-color);
 }
 
+/* ------------Наша команда------------*/
+
+.section-team {
+    background-color:#F5F4FA;
+}
+
 .paragraph-team {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-texy-color); 
