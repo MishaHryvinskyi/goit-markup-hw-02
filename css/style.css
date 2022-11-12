@@ -52,11 +52,12 @@ body {
 
 
 .site-nav {
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    
 }
 .site-nav .header-link,
 .site-nav {
-color: var(--primary-text-color);
+    color: var(--primary-text-color);
 }
 
 .site-nav .header-link:hover,
@@ -125,12 +126,15 @@ color: var(--primary-text-color);
 
 .buttons-filter  .button {
     font-weight: 500;
+    display: flex;
     font-size: 16px;
     line-height: 1.62;
     color: var(--primary-text-color);
     background-color: var(--secondary-fon-col);
     border: none;
+    
 }
+
 
 .button {
     background-color: var(--secondary-fon-col);
@@ -142,13 +146,17 @@ color: var(--primary-text-color);
  {
     background-color:var(--acent-color);
     color: var(--primary-fon-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
  }
  .button-filter {
+    font-family: 'Roboto', 'sans-serif';
     border: 0;
     font-weight: 500;
     font-size: 16px;
     line-height:1.62;
     text-align: center;
+    border-radius: 4px;
  }
 
 .button-style {
@@ -159,6 +167,11 @@ color: var(--primary-text-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #2196F3;
+    border-radius: 4px;
 }   
 .button-style:hover,
 .button-style:focus,
@@ -166,6 +179,8 @@ color: var(--primary-text-color);
  {
     background-color: var(--secondary-fon-col);
     color: var(--primary-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 /* ------------Наші переваги------------*/
 
@@ -220,13 +235,14 @@ color: var(--primary-text-color);
 }
 
 .paragraph-team {
-
+    font-size: 16px;
     text-align: center;
     color: var(--secondary-texy-color); 
 }
 .team-title {
+    font-size: 16px;
     font-weight: 500;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
 
 }
@@ -265,6 +281,7 @@ color: var(--primary-text-color);
     color: var(--acent-color);
 }
 
+/* --------Портфоліо--------- */
 .pic-title {
     font-weight: 700;
     font-size: 18px;
