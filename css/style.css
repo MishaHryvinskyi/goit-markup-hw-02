@@ -24,7 +24,7 @@
 body {
     font-family: 'Roboto', 'sans-serif';
     color: var(--primary-text-color);
-    background-color:var(--primary-fon-color) ;
+    background-color:var(--primary-fon-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -37,7 +37,7 @@ body {
     background-color: var(--primary-fon-color);
 }
 .logo {
-    font-family: 'Raleway', 'sans-serif' ;
+    font-family: 'Raleway', 'sans-serif';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -91,7 +91,7 @@ body {
 }
 
 .site-nav .header-link.current {
-    color: var(--acent-color) ;
+    color: var(--acent-color);
 }
 
 .header-link {
